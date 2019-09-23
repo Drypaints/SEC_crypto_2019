@@ -5,12 +5,12 @@
 ## ex01
 ##
 
-NAME	=	challenge02
+NAME	=	challenge03
 
 all:	$(NAME)
 
 $(NAME):
-	@ln -fs ./fixed_xor.py ./$(NAME)
+	@ln -fs ./xor_cypher.py ./$(NAME)
 
 clean:
 	@echo -e "clean fait"
