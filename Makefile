@@ -6,8 +6,9 @@
 ##
 
 all:
-	cp hex_to_base64.py challenge01
-	chmod +x challenge01
+	cp ex01/hex_to_base64.py challenge01
+	cp ex02/fixed_xor.py challenge02
+	chmod +x challenge01 challenge02
 
 clean:
 
