@@ -5,13 +5,11 @@
 ## ex01
 ##
 
-NAME	=	challenge01
 NAME	=	challenge02
 
 all:	$(NAME)
 
 $(NAME):
-	@ln -fs ./hex_to_base64.py ./$(NAME)
 	@ln -fs ./fixed_xor.py ./$(NAME)
 
 clean:
